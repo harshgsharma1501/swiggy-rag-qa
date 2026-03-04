@@ -1,0 +1,38 @@
+{
+    "standalone": {
+        "net_loss_after_tax": {
+            "FY24": "18,880",
+            "FY23": "37,576"
+        },
+        "total_income": {
+            "FY24": "70,166",
+            "FY23": "53,613"
+        },
+        "total_expenses": {
+            "FY24": "88,020",
+            "FY23": "88,860"
+        },
+        "earnings_per_share": {
+            "FY24": "8.60",
+            "FY23": "17.38"
+        }
+    },
+    "consolidated": {
+        "net_loss_after_tax": {
+            "FY24": "23,502",
+            "FY23": "41,793"
+        },
+        "total_income": {
+            "FY24": "116,343",
+            "FY23": "87,145"
+        },
+        "total_expenses": {
+            "FY24": "139,474",
+            "FY23": "128,844"
+        },
+        "earnings_per_share": {
+            "FY24": "10.70",
+            "FY23": "19.33"
+        }
+    }
+}

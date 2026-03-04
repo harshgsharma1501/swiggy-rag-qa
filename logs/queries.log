@@ -1,0 +1,198 @@
+2026-03-04 15:05:58,058 | INFO | Loading faiss with AVX2 support.
+2026-03-04 15:05:58,186 | INFO | Successfully loaded faiss with AVX2 support.
+2026-03-04 15:05:58,217 | INFO | Use pytorch device_name: cpu
+2026-03-04 15:05:58,217 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-03-04 15:05:59,113 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:05:59,143 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:05:59,387 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:05:59,903 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:00,141 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:00,143 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-04 15:06:00,180 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:00,477 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:00,503 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/README.md "HTTP/1.1 200 OK"
+2026-03-04 15:06:01,445 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:01,480 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:01,722 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:01,758 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:01,992 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-04 15:06:02,241 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:02,276 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:03,266 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:03,295 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:03,676 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:03,710 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:03,997 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:06:04,247 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:06:04,797 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:06:04,830 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-04 15:06:05,111 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-04 15:22:10,492 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:10,527 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:10,815 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:10,859 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:11,131 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:22:11,451 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:22:12,256 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:12,289 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:13,007 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:13,077 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:13,113 | INFO | Loading faiss with AVX2 support.
+2026-03-04 15:22:13,200 | INFO | Successfully loaded faiss with AVX2 support.
+2026-03-04 15:22:13,218 | INFO | Use pytorch device_name: cpu
+2026-03-04 15:22:13,218 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-03-04 15:22:13,545 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:13,545 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-04 15:22:13,618 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:13,869 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:13,924 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:14,205 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:14,276 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:14,665 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:14,726 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/README.md "HTTP/1.1 200 OK"
+2026-03-04 15:22:14,986 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:15,027 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:15,316 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:15,352 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:15,596 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-04 15:22:15,845 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:15,897 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:16,469 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:16,508 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:16,790 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:16,843 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:17,109 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:22:17,430 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:22:17,914 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:22:17,963 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-04 15:22:18,220 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-04 15:23:27,644 | INFO | QUERY: How many cities does Swiggy operate in? | ANSWER: 653
+2026-03-04 15:26:54,782 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:54,843 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:55,256 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:55,307 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:55,574 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:26:55,830 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:26:56,550 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:56,579 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:57,266 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:57,267 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-04 15:26:57,311 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:57,331 | INFO | Loading faiss with AVX2 support.
+2026-03-04 15:26:57,412 | INFO | Successfully loaded faiss with AVX2 support.
+2026-03-04 15:26:57,433 | INFO | Use pytorch device_name: cpu
+2026-03-04 15:26:57,433 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-03-04 15:26:57,817 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:57,869 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:58,138 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:58,173 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:58,456 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:58,493 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:58,775 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:58,817 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/README.md "HTTP/1.1 200 OK"
+2026-03-04 15:26:59,099 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:59,149 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:59,380 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:59,434 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:26:59,660 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-04 15:26:59,912 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:26:59,947 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:27:00,535 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:27:00,574 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:27:00,856 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:27:00,898 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:27:01,175 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:27:01,496 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:27:01,844 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:27:01,879 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-04 15:27:02,135 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-04 15:27:48,867 | INFO | QUERY: How many cities does Swiggy operate in? | ANSWER: 653
+2026-03-04 15:28:24,805 | INFO | QUERY: Who is the Managing Director and Group CEO? | ANSWER: Mr. Sriharsha Majety
+2026-03-04 15:29:55,523 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:33:19,234 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:35:38,830 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:38,832 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-04 15:35:38,860 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:39,150 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:39,185 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:39,468 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:35:39,790 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:35:40,589 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:40,636 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:41,389 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:41,439 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:41,460 | INFO | Loading faiss with AVX2 support.
+2026-03-04 15:35:41,547 | INFO | Successfully loaded faiss with AVX2 support.
+2026-03-04 15:35:41,573 | INFO | Use pytorch device_name: cpu
+2026-03-04 15:35:41,573 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-03-04 15:35:41,868 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:41,902 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:42,189 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:42,218 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:42,511 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:42,552 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:42,829 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:42,858 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/README.md "HTTP/1.1 200 OK"
+2026-03-04 15:35:43,349 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:43,389 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:43,629 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:43,662 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:43,949 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-04 15:35:44,269 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:44,308 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:44,909 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:44,970 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:45,354 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:45,386 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:45,618 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:35:45,870 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:35:46,349 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:35:46,390 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-04 15:35:46,669 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-04 15:36:01,576 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:40:05,246 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:40:57,247 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:41:30,220 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:41:53,123 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:42:32,128 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:32,177 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:32,429 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:32,474 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:32,750 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:42:33,399 | INFO | HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:42:34,719 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:34,770 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:35,970 | INFO | HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:35,971 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-04 15:42:36,012 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:36,052 | INFO | Loading faiss with AVX2 support.
+2026-03-04 15:42:36,204 | INFO | Successfully loaded faiss with AVX2 support.
+2026-03-04 15:42:36,255 | INFO | Use pytorch device_name: cpu
+2026-03-04 15:42:36,255 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2026-03-04 15:42:36,492 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:36,523 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:36,761 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:36,789 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:37,027 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:37,059 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:37,293 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:37,333 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/README.md "HTTP/1.1 200 OK"
+2026-03-04 15:42:37,561 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:37,591 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/modules.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:37,828 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:37,869 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:38,097 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-04 15:42:38,337 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:38,407 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:38,948 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:38,979 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:39,231 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:39,260 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:39,512 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-04 15:42:39,794 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-04 15:42:40,388 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-04 15:42:40,417 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-04 15:42:40,652 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-04 15:42:55,181 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:43:03,282 | INFO | QUERY: Who is the CEO of India? | ANSWER: Sriharsha Majety
+2026-03-04 15:43:26,852 | INFO | QUERY: Who is the ceo of India? | ANSWER: Sriharsha Majety
