@@ -407,9 +407,9 @@ the system delivers **accurate, explainable, and hallucination-resistant answers
 
 # Author
 
-Harsh G. Sharma
-B.Tech Computer Science
-VJTI Mumbai
+*Harsh G. Sharma
+*B.Tech Computer Science
+*VJTI Mumbai
 
 ---
 .
