@@ -296,6 +296,14 @@ Example result:
 ```
 Final Accuracy: 9/9 = 100%
 ```
+# Screenshots:
+<img width="1865" height="890" alt="Screenshot 2026-03-04 152907" src="https://github.com/user-attachments/assets/554a3256-5307-44e1-858b-6bf32bf2712b" />
+<img width="1856" height="863" alt="Screenshot 2026-03-04 152844" src="https://github.com/user-attachments/assets/90ff1e1f-2616-4eef-b52c-b22a4f5c9458" />
+<img width="1869" height="889" alt="Screenshot 2026-03-04 152804" src="https://github.com/user-attachments/assets/46ebf0d7-bbd7-4550-ac0c-36d4fdbbf1f4" />
+<img width="1860" height="874" alt="Screenshot 2026-03-04 085104" src="https://github.com/user-attachments/assets/14ee72e7-fba5-4908-b115-5dc4c28cd73e" />
+
+
+
 
 ---
 
