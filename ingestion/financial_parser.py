@@ -42,7 +42,7 @@ def parse_financial_summary(text):
 
     # -------- Earnings Per Share --------
     match_eps = re.search(
-        r"Earnings per share.*?\(?(-?\d+\.\d+)\)?\s*\(?(-?\d+\.\d+)\)?",
+        r"Earnings per share[^\d]*?\(?(-?\d+\.\d+)\)?\s*\n?\s*\(?(-?\d+\.\d+)\)?",
         text,
         re.DOTALL
     )

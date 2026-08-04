@@ -26,13 +26,13 @@ def evaluate():
         expected = case["expected"]
 
         chunks = retrieve(question, embedder, vector_store)
-        answer = generate_answer(chunks, question)
+        answer, _ = generate_answer(chunks, question)
 
         if expected.lower() in answer.lower():
             correct += 1
-            status = "✅"
+            status = "[PASS]"
         else:
-            status = "❌"
+            status = "[FAIL]"
 
         print(f"{status} Q: {question}")
         print(f"   Expected contains: {expected}")

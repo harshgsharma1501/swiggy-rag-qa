@@ -26,7 +26,7 @@ while True:
 
     print(f"Retrieved {len(chunks)} chunks")
 
-    answer = generate_answer(chunks, query)
+    answer, _ = generate_answer(chunks, query)
 
     print("\nFinal Answer:")
     print(answer)

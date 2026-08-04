@@ -5,8 +5,6 @@ def retrieve(query, embedder, vector_store):
 
     results = vector_store.search(query_embedding, TOP_K)
 
-    SIMILARITY_THRESHOLD = 0.60
-
     filtered = [
         r for r in results
         if r["score"] >= SIMILARITY_THRESHOLD
